@@ -23,10 +23,11 @@ This is the first Arduino sketch to load - it helps to ensure that the Arduino i
 ## Dependencies
 Requires the Arduino OSC parsing library maintained by the great folks over at [CNMAT](https://github.com/CNMAT/OSC). The assembly instructions documents contain details on how to add this to your Arduino project.
 
-##robotlightsyou updates and goals
---First Goal - Add second page of encoder for zoom/intens
+## robotlightsyou updates and goals
+
+#First Goal - Add second page of encoder for zoom/intens
   -currently not functioning. Pan/tilt still work but there is intereference from the intens/zoom knobs. This is particularly confusing since the intens/zoom knobs are not initialized in present code. Paging display does work, paging encoders not yet implemented.
---Second Stage Goal - Add aditional physical and virtual encoders, as well as more buttons
+#Second Stage Goal - Add aditional physical and virtual encoders, as well as more buttons
   -First round - 4 encoders w/ 3 discreet pages - 1)pan/tilt/zoom/edge, 2)shutter A Thrust, A Angle, B Thrust, B Angle 3)C Thrust, C Angle, D Thrust, D Angle
   -second round - add paging buttons that will auto populate encoders based on available params of selected channel
---Third Stage Goal - continue working towards fuller face panel
+#Third Stage Goal - continue working towards fuller face panel
